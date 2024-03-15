@@ -5,9 +5,9 @@ with open("README.md", "r", encoding="utf-8") as f:
     
 __version__ = "0.0.0"
 
-REPO_NAME = "NLP-text-summarizer"
+REPO_NAME = "NLP-text-summarizer" # connects to my github
 AUTHOR_USER_NAME = "rohit-sram"
-SRC_REPO = "text-summarizer"
+SRC_REPO = "text_summarizer" # the name of the local (machine) src repo
 AUTHOR_EMAIL = "rohitsram10@outlook.com"
 
 setuptools.setup(
